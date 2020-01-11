@@ -10,12 +10,10 @@ spring:
   profiles: dev
   application:
     name: microservicecloud-config-study-dev2
-
 eureka:
   client:
     service-url:
-      defualtZone: http://localhost:7001/eureka/
-
+      defaultZone: http://localhost:7001/eureka/
 ---
 server:
   port: 8202
@@ -26,4 +24,4 @@ spring:
 eureka:
   client:
     service-url:
-      defualtZone: http://localhost:7001/eureka/
+      defaultZone: http://localhost:7001/eureka/
